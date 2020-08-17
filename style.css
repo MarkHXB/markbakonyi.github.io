@@ -1,0 +1,31 @@
+#myheader{
+  color:blue;
+}
+.valami323232{
+  color:green;
+  margin:0;
+  text-align:center;
+  font-size:25px;
+}
+
+.big{
+  font-weight:bold;
+}
+a{
+  text-decoration: none;
+  font-size:20px;
+  text-transform:uppercase;
+  background-color:blue;
+  color:#ffff;
+  padding:8px 16px;
+  <!-- az alsó és a felső padding=8px
+      bal és jobb=16px-->
+}
+a:hover{
+  background-color:black;
+  color:#ffff;
+  border: 1px solid black;
+  transition: 0.25s ease-in;
+   <!-- kellenek az alap színek is, mivel úgy fog jobban kinézni
+    border= 1pixelt növekedjen ; szolidan ; feketére -->
+}
